@@ -7,4 +7,4 @@ class Post(models.Model):
     subtitle = models.CharField(max_length=200)
     body = models.TextField()
     author = models.CharField(max_length=100)
-    date = models.TimeField()
+    date = models.DateField()
